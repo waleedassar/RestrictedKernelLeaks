@@ -1,0 +1,25 @@
+﻿Build started 9/2/2021 10:48:29 PM.
+     1>Project "c:\Users\walied\documents\visual studio 2012\Projects\RestrictedKernelLeaks\RestrictedKernelLeaks\RestrictedKernelLeaks.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\RestrictedKernelLeaks.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt RestrictedLeaks.cpp
+         RestrictedLeaks.cpp
+     1>c:\users\walied\documents\visual studio 2012\projects\restrictedkernelleaks\restrictedkernelleaks\Header.h(380): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 C:\Program Files (x86)\Windows Kits\8.0\Include\um\winnt.h(2104) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>RestrictedLeaks.cpp(678): warning C4018: '<' : signed/unsigned mismatch
+     1>RestrictedLeaks.cpp(724): warning C4018: '<' : signed/unsigned mismatch
+     1>RestrictedLeaks.cpp(715): warning C4101: 'Tid' : unreferenced local variable
+     1>RestrictedLeaks.cpp(1190): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>RestrictedLeaks.cpp(1234): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\walied\documents\visual studio 2012\Projects\RestrictedKernelLeaks\x64\Release\RestrictedKernelLeaks.exe" /INCREMENTAL:NO /NOLOGO ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\walied\documents\visual studio 2012\Projects\RestrictedKernelLeaks\x64\Release\RestrictedKernelLeaks.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\walied\documents\visual studio 2012\Projects\RestrictedKernelLeaks\x64\Release\RestrictedKernelLeaks.lib" /MACHINE:X64 x64\Release\HexDump.obj
+         x64\Release\RestrictedKernelLeaks.obj
+         x64\Release\RestrictedLeaks.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         RestrictedKernelLeaks.vcxproj -> c:\users\walied\documents\visual studio 2012\Projects\RestrictedKernelLeaks\x64\Release\RestrictedKernelLeaks.exe
+     1>Done Building Project "c:\Users\walied\documents\visual studio 2012\Projects\RestrictedKernelLeaks\RestrictedKernelLeaks\RestrictedKernelLeaks.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97
