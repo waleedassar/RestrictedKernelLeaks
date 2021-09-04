@@ -3,7 +3,7 @@
 List of KASLR bypass techniques in Windows 10 kernel.
 
 
-ZwQuerySystemInformation/SystemModuleInformation
+1) ZwQuerySystemInformation/SystemModuleInformation
 
 ZwQuerySystemInformation/SystemModuleInformationEx
 
