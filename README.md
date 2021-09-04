@@ -5,31 +5,31 @@ List of KASLR bypass techniques in Windows 10 kernel.
 
 1) ZwQuerySystemInformation/SystemModuleInformation
 
-ZwQuerySystemInformation/SystemModuleInformationEx
+2) ZwQuerySystemInformation/SystemModuleInformationEx
 
-ZwQuerySystemInformation/SystemProcessInformation
+3) ZwQuerySystemInformation/SystemProcessInformation
 
-ZwQuerySystemInformation/SystemExtendedProcessInformation
+4) ZwQuerySystemInformation/SystemExtendedProcessInformation
 
-ZwQuerySystemInformation/SystemSessionProcessInformation
+5) ZwQuerySystemInformation/SystemSessionProcessInformation
 
-ZwQuerySystemInformation/SystemLocksInformation
+6) ZwQuerySystemInformation/SystemLocksInformation
 
-ZwQuerySystemInformation/SystemHandleInformation
+7) ZwQuerySystemInformation/SystemHandleInformation
 
-ZwQuerySystemInformation/SystemExtendedHandleInformation
+8) ZwQuerySystemInformation/SystemExtendedHandleInformation
 
-ZwQuerySystemInformation/SystemObjectInformation
+9) ZwQuerySystemInformation/SystemObjectInformation
 
-ZwQuerySystemInformation/SystemBigPoolInformation
+10) ZwQuerySystemInformation/SystemBigPoolInformation
 
-ZwQuerySystemInformation/SystemSessionBigPoolInformation
+11) ZwQuerySystemInformation/SystemSessionBigPoolInformation
 
-ZwQueryInformationProcess/ProcessHandleTracing
+12) ZwQueryInformationProcess/ProcessHandleTracing
 
-ZwQueryInformationProcess/ProcessWorkingSetWatch
+13) ZwQueryInformationProcess/ProcessWorkingSetWatch
 
-ZwQueryInformationProcess/ProcessWorkingSetWatchEx
+14) ZwQueryInformationProcess/ProcessWorkingSetWatchEx
 
 
 N.B. These techniques are only valid from outside the sandbox.
