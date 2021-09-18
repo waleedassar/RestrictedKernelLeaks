@@ -1209,7 +1209,7 @@ void LeakC()
 
 //-----------------
 
-//ProcessWorkingSetWatch
+//ProcessWorkingSetWatchEx
 //Guarded by ExIsRestrictedCaller
 //Inaccessible from the Sandbox
 void LeakD()
